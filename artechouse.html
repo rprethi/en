@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,16 +22,6 @@
                 ><i class="fa-solid fa-house nav-icon"></i> Home</a
               >
             </li>
-            <li class="nav-item">
-              <a href="./index.html#about" class="nav-link"
-                ><i class="fa-solid fa-user nav-icon"></i> About</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="./index.html#skills" class="nav-link"
-                ><i class="fa-solid fa-file nav-icon"></i> Skills</a
-              >
-            </li>
             <li class="nav-item dropdown">
               <a
                 href="./index.html#portfolio"
@@ -40,7 +30,7 @@
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                <i class="fa-solid fa-image nav-icon"></i> Projets
+                <i class="fa-solid fa-image nav-icon"></i> Portfolio
               </a>
               <div class="dropdown-menu show">
                 <a class="dropdown-item" href="./polaris.html">Polaris</a>
@@ -53,6 +43,16 @@
                 >
                 <a class="dropdown-item" href="./zazenkai.html">Zazenkai</a>
               </div>
+            </li>
+            <li class="nav-item">
+              <a href="./index.html#about" class="nav-link"
+                ><i class="fa-solid fa-user nav-icon"></i> About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./index.html#skills" class="nav-link"
+                ><i class="fa-solid fa-file nav-icon"></i> Skills</a
+              >
             </li>
 
             <li class="nav-item">
@@ -78,7 +78,7 @@
     <main class="main">
       <section class="about section">
         <h2 class="section-title">Artechouse</h2>
-        <span class="section-subtitle">Web</span>
+        <span class="section-subtitle">Web development</span>
         <!-- le projet  -->
         <section class="projet-section">
           <div class="container artechouse-app">
@@ -97,19 +97,19 @@
             <h3>Process and intention</h3>
             <p class="about-description">
               In the context of our
-              <a
+              <i><a
                 href="https://tim-montmorency.com/timdoc/582-424MO/"
                 target="_blank"
                 class="a-content"
                 >Web Optimization</a
-              >
+              ></i>
               course, I redesigned the homepage for
-              <a
+              <i><a
                 href="https://www.artechouse.com/"
                 target="_blank"
                 class="a-content"
                 >Artechouse</a
-              >
+              ></i>
               using Bootstrap and various programming languages. The main goal
               was to create a <span class="mauve">modern</span>, responsive, and
               functional interface to improve the overall
@@ -179,26 +179,30 @@
             </div>
             <ul class="footer-links">
               <li>
-                <a href="./index.html#home" class="footer-link">Accueil</a>
+                <a href="./index.html#home" class="footer-link">Home</a>
               </li>
               <li>
-                <a href="./index.html#about" class="footer-link">Propos</a>
-              </li>
-
-              <li>
-                <a href="./index.html#skills" class="footer-link"
-                  >Compétences</a
-                >
-              </li>
-              <li>
-                <a href="./index.html#portfolio" class="footer-link"
+                <a href="./index.html#portfolio" class="footer-link active"
                   >Portfolio</a
                 >
+              </li>
+              <li>
+                <a href="./index.html#about" class="footer-link">About</a>
+              </li>
+              <li>
+                <a href="./index.html#skills" class="footer-link">Skills</a>
+              </li>
+              <li>
+                <a href="./index.html#contact" class="footer-link">Contact</a>
               </li>
             </ul>
 
             <div class="footer-socials">
-              <a href="" target="_blank" class="footer-social">
+              <a
+                href="https://www.linkedin.com/in/prethiah/"
+                target="_blank"
+                class="footer-social"
+              >
                 <i class="fa-brands fa-linkedin-in"></i>
               </a>
               <a
