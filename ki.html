@@ -38,14 +38,14 @@
                 <a class="dropdown-item" href="./grottefantastique.html"
                   >Grotte Fantastique</a
                 >
-                <a class="dropdown-item" href="./artechouse.html"
-                  >Artechouse</a
-                >
+                <a class="dropdown-item" href="./artechouse.html">Artechouse</a>
                 <a class="dropdown-item" href="./zazenkai.html">Zazenkai</a>
                 <a class="dropdown-item" href="./flhmlq.html">FLHMLQ</a>
                 <a class="dropdown-item" href="./mystimix.html">Mystimix</a>
                 <a class="dropdown-item active" href="./ki.html">Ki</a>
-                <a class="dropdown-item" href="./niveau.html">Ce n'est pas le bon niveau</a>
+                <a class="dropdown-item" href="./niveau.html"
+                  >Ce n'est pas le bon niveau</a
+                >
               </div>
             </li>
             <li class="nav-item">
@@ -84,23 +84,68 @@
         <h2 class="section-title">Ki</h2>
         <span class="section-subtitle">Sound</span>
         <!-- le projet  -->
-        <section class="projet-section">
-          <div class="container video-tictac">
-            <iframe
-              src="https://www.youtube.com/embed/ebRi4O0x6nc"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              class="tictac-img"
-            ></iframe>
+        <section class="processus-section">
+          <div class="processus-container container swiper-container">
+            <div class="swiper-wrapper">
+              <!-- project1 -->
+              <div class="project-content grid swiper-slide">
+                <img
+                  src="./Assets/ki/01-processus-ki.png"
+                  alt=""
+                  class="portfolio-img"
+                />
+              </div>
+              <!-- project2 -->
+              <div class="project-content grid swiper-slide">
+                <img
+                  src="./Assets/ki/02-processus-ki.png"
+                  alt=""
+                  class="portfolio-img"
+                />
+              </div>
+              <!-- project3 -->
+              <div class="project-content grid swiper-slide">
+                <img
+                  src="./Assets/ki/03-processus-ki.png"
+                  alt=""
+                  class="portfolio-img"
+                />
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
           </div>
         </section>
+        <section class="projet-section">
+          <div class="container video-tictac">
+            <audio controls autoplay muted loop class="audio-button">
+              <source
+                src="./Assets/rajaratnam_prethiah_paysage_582-431MO.wav"
+                type="audio/wav"
+              />
+            </audio>
+          </div>
+        </section>
+
         <div class="about-container container grid">
           <div class="about-data">
             <!-- description projet  -->
             <h3>Process and intention</h3>
-            <p class="about-description"></p>
+            <p class="about-description">
+              The project <span class="mauve"><i>Ki</i></span> involved using
+              <span class="mauve"><i>Max/MSP</i></span> in combination with the
+              <span class="mauve"><i>Nanokontrol 2</i></span> to control
+              real-time audio, enabling dynamic shaping of the sound
+              environment. The goal was to create an
+              <span class="mauve">immersive experience</span>,
+              <span class="mauve">interactive design</span> where users could
+              influence the <span class="mauve">soundscape</span>, deepening
+              their connection to the surroundings. Sounds, such as Tibetan
+              singing bowls, were recorded and manipulated to evoke a sense of
+              <span class="mauve">tranquility</span> and reflection. The project
+              has sparked an interest in further exploring interactive audio
+              design in immersive art and digital environments.
+            </p>
 
             <h3>Role</h3>
             <p class="about-description">Sound Designer<br /></p>

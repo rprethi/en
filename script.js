@@ -16,7 +16,6 @@ let grottecontainer = new Swiper(".projet-container", {
     slideShadows: true,
   },
   autoplay: {
-    delay: 8000,
     disableOnInteraction: false,
   },
   pagination: {

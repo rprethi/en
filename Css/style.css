@@ -912,7 +912,6 @@ img {
   .swiper-container-horizontal > .swiper-pagination-bullets {
     bottom: -4.5rem;
   }
-  
 }
 
 @media screen and (min-width: 767px) {
@@ -1052,6 +1051,10 @@ mark {
     border-radius: 0.5rem;
     justify-self: center;
   }
-  }
+}
 
-
+.audio-button {
+  width: 100%;
+  cursor: pointer;
+  margin-top: 2vh;
+}
